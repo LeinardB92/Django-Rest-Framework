@@ -3,6 +3,8 @@ from django.http import JsonResponse
 from firstApp.models import Employee
 
 # Create your views here.
+# Esta función ya es una RESTful API
+
 def employee_view(request):
     emp = {
         'id': 123,
